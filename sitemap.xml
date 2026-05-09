@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.learnhebrewfromzero.com/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.learnhebrewfromzero.com/logo.jpg</image:loc>
+      <image:title>Hebrew From Zero</image:title>
+      <image:caption>One-on-one Hebrew tutoring for native English speakers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.learnhebrewfromzero.com/danny.jpg</image:loc>
+      <image:title>Danny — Hebrew From Zero tutor</image:title>
+      <image:caption>Native English-speaking Hebrew tutor with 10+ years of experience</image:caption>
+    </image:image>
+  </url>
+</urlset>
