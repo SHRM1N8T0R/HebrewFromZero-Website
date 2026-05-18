@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanks — Hebrew From Zero</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Heebo:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Fredoka', sans-serif;
+    background: #FFFBEF;
+    color: #424242;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    line-height: 1.5;
+  }
+
+  .card {
+    max-width: 520px;
+    width: 100%;
+    background: #fff;
+    border: 2px solid #2A79C8;
+    border-radius: 24px;
+    padding: 48px 36px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(42,121,200,0.10);
+  }
+
+  .check-circle {
+    width: 80px;
+    height: 80px;
+    background: #FED009;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #2A79C8;
+    box-shadow: 0 6px 0 #1A5EA7;
+  }
+
+  h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #2A79C8;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .hebrew {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #E03120;
+    margin-bottom: 18px;
+    direction: rtl;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 14px;
+  }
+
+  .accent {
+    color: #E03120;
+    font-weight: 600;
+  }
+
+  .divider {
+    width: 60px;
+    height: 4px;
+    background: #FED009;
+    border-radius: 2px;
+    margin: 24px auto;
+  }
+
+  .next-steps {
+    background: #FFFBEF;
+    border: 1px dashed #2A79C8;
+    border-radius: 12px;
+    padding: 18px;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #424242;
+    text-align: left;
+  }
+
+  .next-steps strong {
+    color: #2A79C8;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .signoff {
+    margin-top: 28px;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+  }
+
+  .signoff strong {
+    color: #2A79C8;
+    font-weight: 600;
+  }
+
+  @media (max-width: 480px) {
+    .card { padding: 36px 24px; }
+    h1 { font-size: 26px; }
+    .hebrew { font-size: 30px; }
+    .check-circle { width: 70px; height: 70px; font-size: 36px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="check-circle">✓</div>
+
+  <div class="hebrew">תודה רבה!</div>
+  <h1>Payment Confirmed</h1>
+
+  <div class="divider"></div>
+
+  <p>Thanks for your payment. Your session(s) are <span class="accent">all set</span>.</p>
+  <p>A receipt has been emailed to you by Stripe.</p>
+
+  <div class="next-steps">
+    <strong>What happens next</strong>
+    See you at our next scheduled session on Zoom or Google Meet — same link, same time. If you need to reschedule, just message me.
+  </div>
+
+  <div class="signoff">
+    — <strong>Danny</strong>, Hebrew From Zero
+  </div>
+</div>
+
+</body>
+</html>
